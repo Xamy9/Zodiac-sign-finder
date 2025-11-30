@@ -1,5 +1,4 @@
 # create zodiac sign function:
-
 def get_zodiac_sign(month,day):
     if month == 1 and day >= 20:
         return "Aquarius", "Traits: Humanitarian, Independent, Unconventional"
@@ -91,6 +90,7 @@ day = int(input("Enter your birth 'day (1-31)': "))
 #call the function:
 Zodiac_sign = get_zodiac_sign(month,day)
 print(f"Your Zodiac sign is: {Zodiac_sign}")
+
 
 
 
